@@ -6,25 +6,7 @@ public class addDigits {
         int ans = AddDigits(num);
         System.out.println(ans);
     }
-    /*static int AddDigits(int num){
-        int sum = sumOfDigits(num);
-        while(num > 0){
-            int digits= (int)(Math.log10(sum)+1);
-            if(digits != 1){
-                sum = sumOfDigits(sum);
-            }
-        }
-        return sum;
-    }
-    static int sumOfDigits(int num){
-        int sum = 0;
-        while(num != 0){
-            int rem = num % 10;
-            sum = sum + rem;
-            num = num/10;
-        }
-        return sum;
-    }*/
+     /* solved through resursion*/
     static int AddDigits(int num){
         int sum = 0;
         while(num != 0){
@@ -36,4 +18,5 @@ public class addDigits {
         else return AddDigits(sum);
     }
 }
+
             
