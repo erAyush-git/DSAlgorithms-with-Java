@@ -11,6 +11,7 @@ public class arrayStringsAreEqual {
         boolean ans = equalStringWithArr(word1, word2);
         System.out.println(ans);
     }
+    /*is slower methord*/
     static boolean equalString(String[] word1, String[] word2){
         String word1joined ="";
         String word2joined = "";
@@ -37,3 +38,4 @@ public class arrayStringsAreEqual {
     }
     
 }
+
