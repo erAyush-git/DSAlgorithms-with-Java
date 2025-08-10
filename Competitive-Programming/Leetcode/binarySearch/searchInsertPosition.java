@@ -20,6 +20,9 @@ public class searchInsertPosition {
                 end = mid -1;
             } else start = mid + 1;
         }
+         //if element not found then think of the just smaller number lets say that 
+        //located at index i, then and would be i +1;
         return end+1;
     }
 }
+
