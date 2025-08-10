@@ -1,3 +1,9 @@
+/*Given an array nums of n integers where nums[i] is in the range [1, n],
+return an array of all the integers in the range [1, n] that do not appear in nums.
+
+leetcode 448*/
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,3 +38,4 @@ public class dissapprearedInArray {
         nums[s]=temp;
     }
 }
+
