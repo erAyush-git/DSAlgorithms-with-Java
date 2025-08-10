@@ -1,4 +1,7 @@
-/*(This problem is an interactive problem.)
+/* leetcode 1095
+
+
+(This problem is an interactive problem.)
 
 You may recall that an array arr is a mountain array if and only if:
 
@@ -14,7 +17,7 @@ MountainArray.get(k) returns the element of the array at index k (0-indexed).
 MountainArray.length() returns the length of the array.
 Submissions making more than 100 calls to MountainArray.get will be judged Wrong Answer. Also, any solutions that attempt to circumvent the judge will result in disqualification.*/
 
-//Solution 
+//Solution of Leetcode 1095
 
 /**
  * // This is MountainArray's API interface.
