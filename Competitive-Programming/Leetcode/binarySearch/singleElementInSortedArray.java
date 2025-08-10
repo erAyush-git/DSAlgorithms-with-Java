@@ -67,4 +67,16 @@ public class singleElementInSortedArray{
         arr[s]= temp;
     }
 
+    /* this xor technique works too but 
+    this dosent have the O(logn) complexity.
+    
+    public int singleNonDuplicate(int[] nums) {
+        int uniqueElement = 0;
+        for(int num : nums){
+            uniqueElement ^= num;
+        }
+        return uniqueElement;
+    }*/
+
 }    
+
