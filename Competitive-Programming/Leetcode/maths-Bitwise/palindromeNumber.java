@@ -1,5 +1,5 @@
-
-
+/*Given an integer x, return true if x is a palindrome, and false otherwise.*/
+//leetcode : 09
 public class palindromeNumber {
     public static void main(String[] args) {
         
@@ -25,3 +25,4 @@ public class palindromeNumber {
         return reverseInt;
     }
 }
+
