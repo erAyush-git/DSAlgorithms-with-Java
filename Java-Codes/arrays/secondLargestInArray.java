@@ -25,4 +25,23 @@ public class secondLargestInArray {
         }
         return secLargest;
     }
+
+
+    //optimal solution for this problem can be 
+    //this is using time complexity of O(N)
+
+    static int secondLargestOptimalSolution(int[] arr){
+        int largest = arr[0];
+        int secondLargest = Integer.MIN_VALUE;
+        for(int i = 0 ; i < arr.length; i++){
+            if(arr[i] > largest){
+                secondLargest=largest;
+                largest=arr[i];
+            }else if(arr[i]<largest && arr[i]>secondLargest) secondLargest=arr[i];
+        }
+        return secondLargest;
+    }
+
+    
 }
+
