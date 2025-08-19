@@ -2,9 +2,6 @@
 
 public class secondLargestInArray {
     public static void main(String[] args){
-        int[] nums = {1,10,90};
-        int ans = secondLargestBF(nums);
-        System.out.println(ans);
     }
      //brute force apporoch follow time complexity of O(N+N)
 
@@ -44,4 +41,5 @@ public class secondLargestInArray {
 
     
 }
+
 
