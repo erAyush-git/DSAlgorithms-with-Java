@@ -1,3 +1,5 @@
+// stagging change from vs code directly this 
+//is a sample commit run.
 
 /*You are given an array of characters letters that is sorted in non-decreasing order, and a character target. There are at least two different characters in letters.
 
