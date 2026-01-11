@@ -1,5 +1,4 @@
 
-
 import java.util.Arrays;
 public class MinValArray {
     public static void main(String[] args){
