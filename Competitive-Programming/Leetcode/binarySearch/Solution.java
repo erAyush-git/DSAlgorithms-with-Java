@@ -13,14 +13,14 @@ Implement a function to find the first bad version. You should minimize the numb
 leetcode 278
 */
 
-public class badVersion {
+/*public class badVersion {
     public static void main(String[] args){
 
     }
     /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
 
-public class Solution extends VersionControl {
+/*public class Solution extends VersionControl {
     /*public int firstBadVersion(int n) {
         // array defined 
         int[] arr = new int[n];
@@ -43,7 +43,7 @@ public class Solution extends VersionControl {
     /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
 
-public class Solution extends VersionControl {
+/*public class Solution extends VersionControl {
     public int firstBadVersion(int n) {
         // array defined 
     
@@ -68,4 +68,4 @@ public class Solution extends VersionControl {
         
     }
 
-}
+}*/
