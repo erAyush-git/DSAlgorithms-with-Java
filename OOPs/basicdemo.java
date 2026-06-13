@@ -43,6 +43,12 @@ class Student{
         this.marks = 80.0f;
     }
 
+    // calling construcoter from another constructor
+
+    //Student(){
+    //  this(18 , "Rahul" , 100.0f);
+    //}
+
     Student(int rno , String name, float marks){
         this.rno = rno;
         this.name = name;
